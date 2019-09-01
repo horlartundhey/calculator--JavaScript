@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 5px;
+    text-align: center;
+  }
+  body {
+    background:linear-gradient(to right, skyblue, rgb(93, 177, 93));
+  }
+  .calculator {
+    width: 450px;
+    height: 650px;
+    background-color: #181616d3;
+    border: 5px solid rgb(26, 25, 25);
+    border-radius: 25px;
+    margin: auto;
+    padding: auto;
+    
+  }
+  #display {
+    width: 400px;
+    height: 40px;
+    text-align: right;
+    background-color: #181616d3;
+    border: 3px solid #181616d3;
+    font-size: 23px;
+    left: 2px;
+    top: 2px;
+    color: #fff;
+  }
+  .btnTop{
+    color: white;
+    background-color: #0e0c0c;
+    font-size: 25px;
+    margin: auto;
+    width: 74px;
+    height: 71px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;   
+  }
+
+  .btnTop:hover{
+      background-color: rgb(58, 196, 255);
+  }
+  .btnNum {
+    color: rgb(238, 223, 223);
+    background-color: black;
+    font-size: 25px;
+    margin: auto;
+    width: 74px;
+    height: 71px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    
+  }
+  .btnNum:hover{
+    background-color: rgb(41, 40, 40)
+}
+  .btnMath {
+    color: white;
+    background-color: #0e0c0c;
+    font-size: 25px;
+    margin: auto;
+    width: 74px;
+    height: 71px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  .btnMath:hover{
+    background-color: rgb(58, 196, 255);
+}
+  .btnOpps {
+    color: white;
+    background-color: #0e0c0c;
+    font-size: 25px;
+    margin: auto;
+    width: 74px;
+    height: 71px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .btnOpps:hover{
+    background-color:  rgb(58, 196, 255)
+}
